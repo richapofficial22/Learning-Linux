@@ -108,7 +108,24 @@ Hence, it shows that Linux comes with default file permissions.
 - <img width="429" height="204" alt="Screenshot 2026-04-15 at 11 32 29 AM" src="https://github.com/user-attachments/assets/5dbb774d-4887-4d66-b7fc-79ee84ccd745" />
 - <img width="399" height="161" alt="Screenshot 2026-04-15 at 11 35 37 AM" src="https://github.com/user-attachments/assets/871387e6-0361-4fac-ab5e-f43a3a8215fb" />
 - <img width="431" height="243" alt="Screenshot 2026-04-15 at 11 37 12 AM" src="https://github.com/user-attachments/assets/31a215c6-76c6-4117-a53c-8683dff13d59" />
-
+### Changing the owner of folder from one user to another
+- <img width="535" height="113" alt="Screenshot 2026-04-15 at 11 40 09 AM" src="https://github.com/user-attachments/assets/f666d08d-fe57-434c-84a2-4814829f31ff" />
+###
+- ps -ef and ps aux : Aux gives cpu and memory utilisation
+- - diff btw kill & kill -9 : -9 wala forcefully kill karta hai and fir show nhi hone deta
+  - kill -3 is to get threat dumps
+  - kill -STOP to stop the process
+ - kill -CONT to continue the stopped processes
+ - renice use karo
+ - service tab start hota hai jab server start hota hai they are different from the processes running
+ - processes can be changed to services
+ - top, htop
+ - vmstat – Report system performance statistics (top is visual representation can't be used in scripts)
+ - free -m & free -h : Show memory usage
+ -  n-proc : kitne cpu hain in machine
+ -  disc space : du -h, du -sh * : gives disc utilisation of folder/directory
+ -  
+ -  
 
 
 
