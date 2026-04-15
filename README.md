@@ -104,7 +104,11 @@ Hence, it shows that Linux comes with default file permissions.
 - <img width="469" height="172" alt="Screenshot 2026-04-15 at 9 30 16 AM" src="https://github.com/user-attachments/assets/12f7f74a-52d7-465e-9acb-53ead02d39c6" />
 - <img width="480" height="119" alt="Screenshot 2026-04-15 at 9 30 38 AM" src="https://github.com/user-attachments/assets/31e702bd-00b8-4ecb-9ce5-955d6ae31c84" />
 - <img width="1337" height="332" alt="Screenshot 2026-04-15 at 9 43 08 AM" src="https://github.com/user-attachments/assets/7344baa8-b834-4be7-9049-fe063542d734" />
--
+### Checking if a user who created a folder and file within it is allowed to use the file if the root user changes the folder permissions
+- <img width="429" height="204" alt="Screenshot 2026-04-15 at 11 32 29 AM" src="https://github.com/user-attachments/assets/5dbb774d-4887-4d66-b7fc-79ee84ccd745" />
+- <img width="399" height="161" alt="Screenshot 2026-04-15 at 11 35 37 AM" src="https://github.com/user-attachments/assets/871387e6-0361-4fac-ab5e-f43a3a8215fb" />
+- <img width="431" height="243" alt="Screenshot 2026-04-15 at 11 37 12 AM" src="https://github.com/user-attachments/assets/31a215c6-76c6-4117-a53c-8683dff13d59" />
+
 
 
 
