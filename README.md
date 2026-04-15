@@ -81,13 +81,24 @@ docker run -dit \
 - <img width="395" height="726" alt="Screenshot 2026-04-14 at 7 56 38 PM" src="https://github.com/user-attachments/assets/cd37c7ad-8bbd-44a0-9b29-a356a65d0e26" />
 ### Successfully added R1,R2,R3 users to rgroup
 - <img width="319" height="740" alt="Screenshot 2026-04-14 at 8 00 52 PM" src="https://github.com/user-attachments/assets/e9662edc-10f9-445b-ba90-e317a676ff12" />
-
-  
-
-
-
-
-
+### Creating folder, files in tmp directory
+- <img width="330" height="177" alt="Screenshot 2026-04-15 at 8 16 12 AM" src="https://github.com/user-attachments/assets/1f3ecd3e-0ae2-482d-87ca-d7b095004f55" />
+### Deleting the created file and folder
+- ******Note: file can also be created using vim command
+- <img width="363" height="130" alt="Screenshot 2026-04-15 at 8 24 47 AM" src="https://github.com/user-attachments/assets/93f5e3cd-0c33-4288-8110-22085df33b9b" />
+### Writing to a file and viewing it 
+- <img width="719" height="249" alt="Screenshot 2026-04-15 at 8 40 59 AM" src="https://github.com/user-attachments/assets/d13e9933-1a26-497f-b5ba-7ca37244777b" />
+### Used few other commands with the file (head, tail, echo)
+- <img width="750" height="273" alt="Screenshot 2026-04-15 at 8 43 41 AM" src="https://github.com/user-attachments/assets/e434a132-37ae-4162-ab59-3f2dfde7dd72" />
+##
+### 
+Created 2 users userread & userwrite. Userwrite has a script file that userread can view and read. 
+But on saving this file after editing the userread is not allowed to do the changes to it. Userread is not even allowed to delete the file. 
+Hence, it shows that Linux comes with default file permissions. 
+- <img width="721" height="221" alt="Screenshot 2026-04-15 at 9 09 06 AM" src="https://github.com/user-attachments/assets/da20a0be-7165-4289-b6d5-1373b9e61f41" />
+- <img width="528" height="210" alt="Screenshot 2026-04-15 at 9 14 26 AM" src="https://github.com/user-attachments/assets/d751b1bd-bfc1-493b-89b8-4ce18fd19077" />
+- <img width="393" height="861" alt="Screenshot 2026-04-15 at 9 17 05 AM" src="https://github.com/user-attachments/assets/f0a7d705-3d84-4d5d-bfa4-b244564437fb" />
+- <img width="504" height="139" alt="Screenshot 2026-04-15 at 9 21 51 AM" src="https://github.com/user-attachments/assets/df4fdd8e-9be0-4415-93aa-46e507e29f59" />
 
 
 
