@@ -103,8 +103,8 @@ Hence, it shows that Linux comes with default file permissions.
 - <img width="851" height="340" alt="Screenshot 2026-04-15 at 9 34 39 AM" src="https://github.com/user-attachments/assets/2ab73371-6f96-4f0e-a61f-0270d1554d14" />
 - <img width="469" height="172" alt="Screenshot 2026-04-15 at 9 30 16 AM" src="https://github.com/user-attachments/assets/12f7f74a-52d7-465e-9acb-53ead02d39c6" />
 - <img width="480" height="119" alt="Screenshot 2026-04-15 at 9 30 38 AM" src="https://github.com/user-attachments/assets/31e702bd-00b8-4ecb-9ce5-955d6ae31c84" />
-
-
+- <img width="1337" height="332" alt="Screenshot 2026-04-15 at 9 43 08 AM" src="https://github.com/user-attachments/assets/7344baa8-b834-4be7-9049-fe063542d734" />
+-
 
 
 
