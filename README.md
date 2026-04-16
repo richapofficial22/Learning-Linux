@@ -110,10 +110,23 @@ Hence, it shows that Linux comes with default file permissions.
 - <img width="431" height="243" alt="Screenshot 2026-04-15 at 11 37 12 AM" src="https://github.com/user-attachments/assets/31a215c6-76c6-4117-a53c-8683dff13d59" />
 ### Changing the owner of folder from one user to another
 - <img width="535" height="113" alt="Screenshot 2026-04-15 at 11 40 09 AM" src="https://github.com/user-attachments/assets/f666d08d-fe57-434c-84a2-4814829f31ff" />
-###
-- ps -ef and ps aux : Aux gives cpu and memory utilisation
-- - diff btw kill & kill -9 : -9 wala forcefully kill karta hai and fir show nhi hone deta
-  - kill -3 is to get threat dumps
+### Checking the process running in my linux docker container. Killing the process using the PID. Using renice to change the priority of the process. top to monitor the system processes. Installed htop package using apt and then ran it. 
+- <img width="580" height="232" alt="Screenshot 2026-04-16 at 9 10 18 AM" src="https://github.com/user-attachments/assets/2e906e8d-2065-485e-8742-e69cbeca658a" />
+- <img width="559" height="155" alt="Screenshot 2026-04-16 at 9 14 17 AM" src="https://github.com/user-attachments/assets/b907af3d-ab0c-4606-9a01-4fda0e8d769a" />
+- <img width="676" height="151" alt="Screenshot 2026-04-16 at 9 32 13 AM" src="https://github.com/user-attachments/assets/4970fd19-0456-4227-af5e-7c69d68cec95" />
+- <img width="558" height="284" alt="Screenshot 2026-04-16 at 9 43 04 AM" src="https://github.com/user-attachments/assets/db16eb56-33bb-4766-8bea-47d48d752635" />
+- <img width="707" height="176" alt="Screenshot 2026-04-16 at 9 45 01 AM" src="https://github.com/user-attachments/assets/26d25987-1877-4f40-a9cd-7aef66f7da9a" />
+- <img width="886" height="666" alt="Screenshot 2026-04-16 at 9 49 15 AM" src="https://github.com/user-attachments/assets/85283e75-9b8a-41fc-87e7-9f64e6966d50" />
+- <img width="1440" height="900" alt="Screenshot 2026-04-16 at 9 48 59 AM" src="https://github.com/user-attachments/assets/23be0974-0673-42b3-8b13-0e7a8f09a4f7" />
+- <img width="656" height="329" alt="Screenshot 2026-04-16 at 9 51 11 AM" src="https://github.com/user-attachments/assets/2166c0af-f2d2-4122-8a04-9eea17c7fa2b" />
+- <img width="648" height="501" alt="Screenshot 2026-04-16 at 9 55 43 AM" src="https://github.com/user-attachments/assets/3edfc2f5-e929-4ead-b832-a38016c70cf8" />
+- <img width="544" height="369" alt="Screenshot 2026-04-16 at 9 57 17 AM" src="https://github.com/user-attachments/assets/8fdd58e2-2a02-447e-8664-80d0125ec9c0" />
+
+
+- *******Notes:
+   - ps -ef and ps aux : Aux gives cpu and memory utilisation
+   - diff btw kill & kill -9 : -9 wala forcefully kill karta hai and fir show nhi hone deta
+   - kill -3 is to get threat dumps
   - kill -STOP to stop the process
  - kill -CONT to continue the stopped processes
  - renice use karo
