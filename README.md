@@ -118,6 +118,7 @@ Hence, it shows that Linux comes with default file permissions.
 - <img width="707" height="176" alt="Screenshot 2026-04-16 at 9 45 01 AM" src="https://github.com/user-attachments/assets/26d25987-1877-4f40-a9cd-7aef66f7da9a" />
 - <img width="886" height="666" alt="Screenshot 2026-04-16 at 9 49 15 AM" src="https://github.com/user-attachments/assets/85283e75-9b8a-41fc-87e7-9f64e6966d50" />
 - <img width="1440" height="900" alt="Screenshot 2026-04-16 at 9 48 59 AM" src="https://github.com/user-attachments/assets/23be0974-0673-42b3-8b13-0e7a8f09a4f7" />
+### using vmstat to see system performance statistics. Using free -m & free -h to see memory usage . nproc to check how mant cpu's are running in my docker linux container. and finally seeing the disk usage using commands du -h & du -sh * 
 - <img width="656" height="329" alt="Screenshot 2026-04-16 at 9 51 11 AM" src="https://github.com/user-attachments/assets/2166c0af-f2d2-4122-8a04-9eea17c7fa2b" />
 - <img width="648" height="501" alt="Screenshot 2026-04-16 at 9 55 43 AM" src="https://github.com/user-attachments/assets/3edfc2f5-e929-4ead-b832-a38016c70cf8" />
 - <img width="544" height="369" alt="Screenshot 2026-04-16 at 9 57 17 AM" src="https://github.com/user-attachments/assets/8fdd58e2-2a02-447e-8664-80d0125ec9c0" />
