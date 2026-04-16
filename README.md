@@ -131,9 +131,23 @@ Hence, it shows that Linux comes with default file permissions.
 - <img width="1440" height="900" alt="Screenshot 2026-04-15 at 1 14 18 PM" src="https://github.com/user-attachments/assets/af151116-fbc3-4b68-b725-f355c65fd0a4" />
 - <img width="1440" height="900" alt="Screenshot 2026-04-15 at 1 32 48 PM" src="https://github.com/user-attachments/assets/5bddff0a-a34b-4b71-b983-3fcce8896be7" />
 ##
-### 
-
-
+### Checking disk storage on Linux instance using lbslk and fdisk -l
+- <img width="1440" height="798" alt="Screenshot 2026-04-16 at 10 41 33 AM" src="https://github.com/user-attachments/assets/bad86390-d83d-4443-8635-a05be398d45f" />
+- <img width="1440" height="778" alt="Screenshot 2026-04-16 at 10 42 49 AM" src="https://github.com/user-attachments/assets/4d029582-07be-4aa9-86ad-3423dd3d11a4" />
+### Created 10gb block storage using EBS Volumes and attached to the current Linux instance. (**block only attaches if it is in same availability zone as the instance). This block storage needs to be mounted first and formated so that applications can run on it. 
+- <img width="1434" height="786" alt="Screenshot 2026-04-16 at 10 48 54 AM" src="https://github.com/user-attachments/assets/f13ffb11-eda8-4fe9-a952-ffd596478f85" />
+- <img width="629" height="271" alt="Screenshot 2026-04-16 at 10 53 37 AM" src="https://github.com/user-attachments/assets/c2a4a8fe-9350-41dd-8c57-240898e66603" />
+- <img width="505" height="102" alt="Screenshot 2026-04-16 at 11 01 08 AM" src="https://github.com/user-attachments/assets/e80cf11c-9f81-4ce1-8822-5cb046ee090c" />
+- <img width="647" height="252" alt="Screenshot 2026-04-16 at 11 03 58 AM" src="https://github.com/user-attachments/assets/0a24ccf4-3d03-4f33-8a40-593a4c16f7f4" />
+- <img width="632" height="276" alt="Screenshot 2026-04-16 at 11 02 54 AM" src="https://github.com/user-attachments/assets/2177c61b-face-406e-ac6f-9d59159f01f8" />
+- <img width="675" height="530" alt="Screenshot 2026-04-16 at 11 06 13 AM" src="https://github.com/user-attachments/assets/c210c33b-4a86-492e-8491-55b599f049ff" />
+- <img width="607" height="389" alt="Screenshot 2026-04-16 at 11 11 51 AM" src="https://github.com/user-attachments/assets/76b05f06-a319-460c-9ecf-08c7756bb092" />
+- unmount
+- <img width="628" height="525" alt="Screenshot 2026-04-16 at 11 23 12 AM" src="https://github.com/user-attachments/assets/45cb7656-fe6d-454a-9489-50c681fe77d3" />
+- detaching the volume
+- <img width="1440" height="776" alt="Screenshot 2026-04-16 at 11 26 27 AM" src="https://github.com/user-attachments/assets/8907cada-f3d5-42b3-b00f-6b3609948b6c" />
+- now my linux server is not showing the detached volume
+- <img width="631" height="252" alt="Screenshot 2026-04-16 at 11 27 39 AM" src="https://github.com/user-attachments/assets/7e42c0ec-2986-4e7b-a9eb-b3e4f216c087" />
 
 
 
@@ -189,7 +203,8 @@ Hence, it shows that Linux comes with default file permissions.
  - free -m & free -h : Show memory usage
  -  n-proc : kitne cpu hain in machine
  -  disc space : du -h, du -sh * : gives disc utilisation of folder/directory
- -  
+ -  disk storage add karne se apps uspe nhi run karne lagte hain. storage needs to be mounted to the linux instance and then applications can run.
+ -  Also the volume that we create is of block storage. so it needs to be formatted to xfs or ext4.
  -  
 
 
