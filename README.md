@@ -205,7 +205,15 @@ Hence, it shows that Linux comes with default file permissions.
  -  disc space : du -h, du -sh * : gives disc utilisation of folder/directory
  -  disk storage add karne se apps uspe nhi run karne lagte hain. storage needs to be mounted to the linux instance and then applications can run.
  -  Also the volume that we create is of block storage. so it needs to be formatted to xfs or ext4.
- -  
+ -  192, 172,10 are generally used for private subnets.. 8.8.8.8 is public IP address, google's dns which is impossible to change.
+ -  ports
+ -  dns resolution hota hai uske bad tcp handshake hota hai usually called 3 ways handshake.
+ -  3 way handshake: sync, sync-ack, ack. there is also 2 way and 4 way handshake. but to communicate a server 3 way handshake is enough.
+ -  dns aur tcp handshake ke baad hi data request initiation chalu hota hai.
+ -  L7,L6, L5 are taken care by the browser itself. sender basically. 
+ -  layer 7 : Application layer // Initiates communication
+ -  layer 6 : Presentation layer // encryption karte hai depending upon the certificates and https 
+ -  layer 5 : Session layer // stored in cookies and cache
 
 
 
