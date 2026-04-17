@@ -210,10 +210,45 @@ Hence, it shows that Linux comes with default file permissions.
  -  dns resolution hota hai uske bad tcp handshake hota hai usually called 3 ways handshake.
  -  3 way handshake: sync, sync-ack, ack. there is also 2 way and 4 way handshake. but to communicate a server 3 way handshake is enough.
  -  dns aur tcp handshake ke baad hi data request initiation chalu hota hai.
+   ### OSI Model
  -  L7,L6, L5 are taken care by the browser itself. sender basically. 
  -  layer 7 : Application layer // Initiates communication
  -  layer 6 : Presentation layer // encryption karte hai depending upon the certificates and https 
  -  layer 5 : Session layer // stored in cookies and cache
+ -  layer 4 : Transport layer // segmentation of data and defining of protocol tcp or udp. if using http then tcp protocol if using dns then udp protocol
+ -  layer 3 : Networking layer // Data is received by router that finds the shortest path and for this the source and destination IP addresses are both added..forming packets. 
+ -  layer 2 : Data link layer //Routers are connected to switches. if you are using switches the data is converted into frames. frames me mac information is also added.
+ -  layer 1 : Physical layer //eod switches are connected to optical cables which understand electronic signals and help in fast transmission of data through cables.
+
+Layer 1 k baad data traverses through multiple hops and finally reaches the server.
+
+<img width="1088" height="655" alt="Screenshot 2026-04-16 at 3 25 00 PM" src="https://github.com/user-attachments/assets/0a135218-1572-43ed-b21a-4694b1317618" />
+
+- TCP-IP Model bhi hai jisme L765 are combined as one unit. OSI model is the og model standard model.
+##
+##
+
+# Shell Scripting 
+- Basically reducing manual activity we choose to automate anything. Doing automation on linux hosted machine is called shell scripting.
+- Process of automating day to day activities on linux.
+- <img width="979" height="325" alt="Screenshot 2026-04-16 at 3 56 29 PM" src="https://github.com/user-attachments/assets/577fdbf2-7473-4708-a711-9b9971b9bfc4" />
+- vi vim work same . vim is better though.
+- Even if the file is not created using touch command. we can directly create it using vim command. and the command directly opens the new file to modify it.
+- Commom question why not use vim then? Bcox Touch command is used in automation. vim command opens the file to modify it which is why during automation process it cannot be used to create multiple files.
+- Shebang #!/Bin/Bash : bash, dash,sh,ksh are different executables used to inform my linux OS that I am going to use it.
+- sh vs bash : sh me the request is taken by sh but it is forwarded to bash using concept of linking concept. used to happen earlier. we dont do it now. 
+- ubuntu has started linking sh to dash. so it is very important to use bash while scripting. sh would not link to bash now.
+- to execute a shell script we can use sh or ./
+-  sh  reads the script line‑by‑line and executes it regardless of what  #!/bin/bash  (or a broken version of it) says
+-  Linux is very strict regarding security. Before executing any script it wants to know that who all have permission to execute the script.
+-  chmod : root user or admin or you / group / for others
+- history command to see what commands have been used previously
+- man shows the details of the command
+- pwd: to check the current working directory
+- mkdir to make a directory , cd to change directory,
+
+### 
+Devops use Shell scripting for 3 things- Infrastructure maintenance, code management using git, configuration management
 
 
 
@@ -223,6 +258,43 @@ Hence, it shows that Linux comes with default file permissions.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
