@@ -249,7 +249,9 @@ Layer 1 k baad data traverses through multiple hops and finally reaches the serv
 
 ### 
 Devops use Shell scripting for 3 things- Infrastructure maintenance, code management using git, configuration management
-
+- pipe |  it sends output of the first command to the second command. eg. ps -ef | grep amazon
+- if the first command is sending input to stdin then pipe won't be able to read the output
+- 
 
 
 
